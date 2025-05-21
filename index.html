@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Gourmet</title>
+    <link rel="stylesheet " href="style.css">
+    
+</head>
+<body>
+    <div class="header-container">
+        <img src="imagenes/emogiprincipal.png" alt="Emoji">
+        <h1>Restaurante Gourmet</h1>
+        <img src="imagenes/emogiprincipal.png" alt="Emoji">
+    </div>
+
+    <p id="bienvenida"></p>
+    <button onclick="actualizarBienvenida()">Actualizar bienvenida</button>
+    <div id="mensajeExtra"></div>
+
+    <section>
+        <button onclick="mostrarMenu('desayuno')">Desayuno</button>
+        <button onclick="mostrarMenu('comida')">Comida</button>
+        <button onclick="mostrarMenu('cena')">Cena</button>
+        <button onclick="mostrarMenu('brunch')">Brunch</button>
+    </section>
+
+    <div class="menu-container">
+        <div id="menu"></div>
+    </div>
+
+    <script src="codigo.js"></script>
+    <footer>Tecnológico Nacional de México - Campus Pachuca - Programación Web - EvaluaciónT4 - Equipo 6 - Derek Alejandro Vargas Meneses y Arely Téllez Salas</footer>
+</body>
+</html>

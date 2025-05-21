@@ -1,0 +1,75 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Abadi&display=swap');
+        
+        body {
+            font-family: 'Abadi', sans-serif;
+            text-align: center;
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .header-container img {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+        h1 {
+            font-size: 2em;
+            color: #333;
+            transition: transform 0.3s ease-in-out;
+        }
+        h1:hover {
+            transform: scale(1.05);
+        }
+        #bienvenida, #mensajeExtra {
+            white-space: nowrap;
+            overflow: hidden;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .menu-container {
+            width: 100%;
+            min-height: 200px;
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background-color: white;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .menu-img {
+            width: 150px;
+            height: 150px;
+            display: block;
+            margin: 10px auto;
+        }
+        footer {
+            font-size: 14px;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
